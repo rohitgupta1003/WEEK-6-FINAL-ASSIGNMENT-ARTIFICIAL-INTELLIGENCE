@@ -1,0 +1,64 @@
+{
+  "accuracy": 0.9824561403508771,
+  "precision": 0.9861111111111112,
+  "recall": 0.9861111111111112,
+  "f1": 0.9861111111111112,
+  "cv_mean": 0.9806862288464524,
+  "cv_scores": [
+    0.9824561403508771,
+    0.9824561403508771,
+    0.9736842105263158,
+    0.9736842105263158,
+    0.9911504424778761
+  ],
+  "cm": {
+    "tn_malignant_correct": 41,
+    "fp_malignant_called_benign": 1,
+    "fn_benign_called_malignant": 1,
+    "tp_benign_correct": 71
+  },
+  "train_size": 455,
+  "test_size": 114,
+  "comparison": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.9825,
+      "Precision": 0.9861,
+      "Recall": 0.9861,
+      "F1-score": 0.9861
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.9123,
+      "Precision": 0.9559,
+      "Recall": 0.9028,
+      "F1-score": 0.9286
+    },
+    {
+      "Model": "KNN",
+      "Accuracy": 0.9561,
+      "Precision": 0.9589,
+      "Recall": 0.9722,
+      "F1-score": 0.9655
+    },
+    {
+      "Model": "Random Forest",
+      "Accuracy": 0.9561,
+      "Precision": 0.9589,
+      "Recall": 0.9722,
+      "F1-score": 0.9655
+    }
+  ],
+  "top_coef": {
+    "worst texture": -1.2550880416901329,
+    "radius error": -1.0829653362483997,
+    "worst concave points": -0.9536863642145679,
+    "worst area": -0.9477559027621608,
+    "worst radius": -0.9476161496027738,
+    "worst symmetry": -0.9391814052053207,
+    "area error": -0.9291040183411341,
+    "worst concavity": -0.82315064626714,
+    "worst perimeter": -0.7632200724438891,
+    "worst smoothness": -0.7466248092149411
+  }
+}
